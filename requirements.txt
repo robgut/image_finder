@@ -1,3 +1,5 @@
 openai==1.47.0
 streamlit
 python-dotenv
+qdrant_client
+boto3
