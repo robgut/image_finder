@@ -1,5 +1,6 @@
-openai==1.47.0
+openai
 streamlit
 python-dotenv
 qdrant_client
 boto3
+base64
