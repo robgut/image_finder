@@ -261,7 +261,7 @@ with add_tab:
                 else:
                     st.info('Nie wczytano żadnego obrazu')
         except Exception as ex:
-            st.error('Wystapił nieoczekiwany błąd')
+            st.error(f'Wystapił nieoczekiwany błąd: {ex}')
 
 with search_tab:
     with st.form('search_img'):
