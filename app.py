@@ -242,6 +242,7 @@ with add_tab:
                         if save_image(img_bytes=img_bytes, img_name="img/" + CURRENT_IMAGE):
                             st.toast("Plik został pomyślnie zapisany!", icon="🎉")
 
+                            st.write(f'open ai key = {get_openai_client()}')
                             with st.spinner('Zaczekaj chwilę...'):
                                 photo_text = get_text_from_image(openai_client=get_openai_client(), image_bytes=image_bytes)
                                 st.write(photo_text)
