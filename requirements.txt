@@ -2,5 +2,4 @@ openai
 streamlit
 python-dotenv
 qdrant_client
-boto3
-base64
+boto3==1.35.99
